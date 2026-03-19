@@ -5,7 +5,7 @@ import cloudinary from "./cloudinaryConfig.js";
 
 dotenv.config();
 
-const app = express();
+export const app = express();
 
 app.use(cors());
 
